@@ -22,7 +22,7 @@ The screenshot of the page is attached below to show the application looks the s
 
 
 ## Credits
-For deeper understanding, I researched relative topics and referred to following articles.
+For deeper understanding, I researched related topics and referred to following articles.
 - https://www.w3schools.com/html/html5_semantic_elements.asp
 - http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html
 - https://accessibility.huit.harvard.edu/describe-content-images
