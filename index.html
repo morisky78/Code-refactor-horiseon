@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<!--  The entire page is devided into <header><main><footer> to use sementic code -->
+<!--  The entire page is divided into <header><main><footer> to use sementic code -->
     
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
@@ -31,14 +31,14 @@
     <!-- 
     - The <main> area has 2 <section>s, #content (left boxes area) & #benefits (right box) 
     - Each <section> has <article> for each topic  
-    - Deleted unnessasry classnames for each <article> : repetitive css cleaned up
+    - Deleted unnecessary classnames for each <article> : repetitive css cleaned up
     - Added alt values for each image   
     -->
     <main>
-        <!-- added alt for background image -->
-        <div class="background-image" role="img" aria-label="photo of digital marketing meeting"></div>
+        <!-- added alt for background image and used sementic classname -->
+        <div class="background-image" role="img" aria-label="A scene of digital marketing meeting"></div>
 
-        <section id="content">
+        <section class="content">
             <!-- changed 'class' to 'id' so that the top navigation link works -->    
             <article id="search-engine-optimization"> 
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Search Engine Optimization"/>
@@ -63,7 +63,7 @@
             </article>
         </section>
 
-        <section id="benefits">
+        <section class="benefits">
             <article>
                 <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" alt=""/>

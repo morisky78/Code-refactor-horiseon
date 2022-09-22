@@ -51,7 +51,7 @@ p {
     font-size: 16px;
 }
 
-/* changed class name to make more sense */
+/* changed classname from 'hero' to be more sensible */
 .background-image {
     height: 800px;
     width: 100%;
@@ -72,13 +72,13 @@ p {
     margin-left: 25px;
 }
 
-#content {
+.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-#benefits {
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -132,16 +132,16 @@ p {
     max-width: 150px;
 }*/
 /* repetitive css above - combined together as below */
-#benefits article{
+.benefits article{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-#benefits h3{
+.benefits h3{
     margin-bottom: 10px;
     text-align: center;
 }
-#benefits img{
+.benefits img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -175,7 +175,7 @@ p {
 }
 */
 /* repetitive css above - combined together as below */
-#content article{
+.content article{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -208,8 +208,8 @@ p {
 }
 /*
 /* repetitive css above - combined together as below */
-#content img{max-height:200px;}
-#content h2 {
+.content img{max-height:200px;}
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
